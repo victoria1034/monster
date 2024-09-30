@@ -6,6 +6,7 @@ def is_multiple_of(nb, p):
         raise ValueError("The divisor 'p' cannot be zero.")
     return nb % p == 0
 
+
 def sum_int(a, b):
     
     # sum(a, b) qui renvoi la somme des nombres a et b
@@ -13,8 +14,8 @@ def sum_int(a, b):
     # return a + b
     return sum([a, b])
 
-def diff(a, b):
-    
-    # diff(a, b) qui retourne la différence entre les nombres a et b
 
+def diff(a, b):
+
+    # diff(a, b) qui retourne la différence entre les nombres a et b
     return a - b
